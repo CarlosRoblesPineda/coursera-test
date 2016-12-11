@@ -1,14 +1,14 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
 	font-family: arial;
 	color: #555555;
 	text-align: center;
 	background-color: #ffffff;
-}
-
-* {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
 }
 
 h1 {
@@ -28,6 +28,10 @@ p {
 }
 
 .title1 {
+  float: right;
+  position: relative;
+  left: 0.9px;
+  bottom: 0.9px;
 	border: 1px solid black;
 	font-size: 175%;
 	background-color: #c4d283;
@@ -35,6 +39,10 @@ p {
 }
 
 .title2 {
+  float: right;
+  position: relative;
+  left: 0.9px;
+  bottom: 0.9px;
 	border: 1px solid black;
 	font-size: 175%;
 	background-color: #fbfbfb;
@@ -42,12 +50,19 @@ p {
 }
 
 .title3 {
+  float: right;
+  position: relative;
+  left: 0.9px;
+  bottom: 0.9px;
 	border: 1px solid black;
 	font-size: 175%;
 	background-color: #f9bba4;
 	padding: 5px;
 }
 
+.paragraph {
+  padding: 12px;
+}
 .row {
 	width: 100%;
 }
