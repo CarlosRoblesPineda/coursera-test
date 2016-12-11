@@ -1,3 +1,48 @@
+@font-face {
+    font-family: 'arvobold';
+    src: url('arvo-bold.woff2') format('woff2'),
+         url('arvo-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'arvoitalic';
+    src: url('arvo-italic.woff2') format('woff2'),
+         url('arvo-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'arvoregular';
+    src: url('arvo-regular.woff2') format('woff2'),
+         url('arvo-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'arvobold_italic';
+    src: url('arvo-bolditalic.woff2') format('woff2'),
+         url('arvo-bolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
 	font-family: "arvo";
 	color: #555555;
@@ -30,6 +75,7 @@ p {
 .title {
 	float:right;
 	background-color: #f1f1f1;
+
 }
 
 .row {
