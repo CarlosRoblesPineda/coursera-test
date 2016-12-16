@@ -24,10 +24,6 @@ section.container {
 	position: relative;
 }
 
-section {
-  border: 1px solid black;
-}
-
 .title1 {
   float: right;
   position: relative;
@@ -65,7 +61,7 @@ p.description {
 	width: 100%;
 	height: 100%;
   padding: 15px;
-	padding-top: 55px;
+	padding-top: 57px;
   font-size: 17px;
 }
 
