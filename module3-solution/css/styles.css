@@ -15,7 +15,7 @@ body {
   border: 0;
 }
 .navbar-brand {
-  text-shadow: 2px 2px 2px #888;
+  text-shadow: 1.5px 1.5px 1.5px #888;
   text-decoration: none;
 }
 a {
