@@ -83,12 +83,13 @@ p {
   color: black;
   text-align: center;
 }
-#nav-list a:hover {
-  background: #aaa;
-}
 #nav-list a span {
   font-size: 1em;
 }
+#nav-list a:hover {
+  background: #aaa;
+}
+
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #555;
 }
