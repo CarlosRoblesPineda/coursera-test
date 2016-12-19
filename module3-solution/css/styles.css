@@ -7,20 +7,15 @@ body {
 	font-family: 'Signika', sans-serif;
 	color: #000;
 	text-align: center;
-	background-color: #fff;
-}
-#header.nav {
-  background-color: #f6b319;
-  border-radius: 0;
-  border: 0;
+	background-color: #eabeab;
 }
 .navbar-brand {
   text-shadow: 1.5px 1.5px 1.5px #888;
   text-decoration: none;
 }
 .navbar {
-  border: black;
-  border-radius: 4;
+  background-color: #ebbebb;
+  box-shadow: 0 0 10px #888
 }
 header.navbar, .container{
   width: 95%;
@@ -38,15 +33,24 @@ a span{
 }
 h1 {
   font-family: 'Dancing Script', cursive;
-  margin: 0 auto 25px;
+  font-weight:bold;
+  font-size: 2.7em;
+  margin-bottom: 35px;
 }
 .container{
   padding: 0.5%;
 }
-p.container {
+section.container {
   position: relative;
   border: 1px solid black;
   padding: 1%;
+  background-color: #fff;
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.7em;
+  padding: 5px;
 }
 
 
@@ -62,16 +66,15 @@ p.container {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-sm-6 {
       float:left;
-      margin: -0.5%;
       margin-left: 2.5%;
-      margin-bottom: 2.5%;
+      margin-bottom: 25px;
       width: 46.25%;
   }
   .col-sm-12 {
     float: left;
     margin: -1%;
     margin-left:2.5%;
-    margin-bottom: 2%;
+    margin-bottom: 25px;
     width: 95%;
   }
 }
@@ -79,9 +82,8 @@ p.container {
 @media (max-width: 767px) {
   .col-xs-12 {
     float: left;
-    margin: -1%;
     margin-left: 2.5%;
-    margin-bottom: 4%;
+    margin-bottom: 25px;
     width: 95%;
   }
 }
