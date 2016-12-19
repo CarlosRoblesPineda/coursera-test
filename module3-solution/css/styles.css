@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+	font-family: 'Signika', sans-serif;
+	color: #000;
+	text-align: center;
+	background-color: #fff;
+}
+#header.nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  text-shadow: 2px 2px 2px #888;
+  text-decoration: none;
+}
+a {
+  color: black;
+}
+a span{
+  position: absolute;
+  left: 1%;
+  font-size: 2.4em;
+  font-color: #000;
+}
+h1 {
+  font-family: 'Dancing Script', cursive;
+  margin: 2% auto 2%
+}
