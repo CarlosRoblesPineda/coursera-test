@@ -18,16 +18,70 @@ body {
   text-shadow: 1.5px 1.5px 1.5px #888;
   text-decoration: none;
 }
+.navbar {
+  border: black;
+  border-radius: 4;
+}
+header.navbar, .container{
+  width: 95%;
+}
+.container{
+  padding: 0.5%;
+}
 a {
   color: black;
 }
 a span{
   position: absolute;
-  left: 1%;
   font-size: 2.4em;
   font-color: #000;
 }
 h1 {
   font-family: 'Dancing Script', cursive;
-  margin: 2% auto 2%
+  margin: 0 auto 25px;
+}
+.container{
+  padding: 0.5%;
+}
+p.container {
+  position: relative;
+  border: 1px solid black;
+  padding: 1%;
+}
+
+
+@media (min-width: 992px){
+  .col-md-4 {
+      float:left;
+      margin: -1%;
+      margin-left: 2.5%;
+      width: 30%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-6 {
+      float:left;
+      margin: -0.5%;
+      margin-left: 2.5%;
+      margin-bottom: 2.5%;
+      width: 46.25%;
+  }
+  .col-sm-12 {
+    float: left;
+    margin: -1%;
+    margin-left:2.5%;
+    margin-bottom: 2%;
+    width: 95%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-xs-12 {
+    float: left;
+    margin: -1%;
+    margin-left: 2.5%;
+    margin-bottom: 4%;
+    width: 95%;
+  }
 }
