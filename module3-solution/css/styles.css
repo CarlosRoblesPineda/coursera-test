@@ -15,6 +15,7 @@ body {
 }
 .navbar {
   background-color: #ebbebb;
+  border: none;
   box-shadow: 0 0 10px #888
 }
 header.navbar, .container{
@@ -52,13 +53,17 @@ section.container {
   font-size: 1.7em;
   padding: 5px;
 }
-
+p {
+  padding: 5px;
+  padding-bottom: 0;
+}
 
 @media (min-width: 992px){
   .col-md-4 {
       float:left;
       margin: -1%;
       margin-left: 2.5%;
+      margin-bottom: 2.5%;
       width: 30%;
   }
 }
@@ -67,12 +72,11 @@ section.container {
   .col-sm-6 {
       float:left;
       margin-left: 2.5%;
-      margin-bottom: 25px;
+      margin-bottom: 2.5%;
       width: 46.25%;
   }
   .col-sm-12 {
     float: left;
-    margin: -1%;
     margin-left:2.5%;
     margin-bottom: 25px;
     width: 95%;
@@ -83,7 +87,7 @@ section.container {
   .col-xs-12 {
     float: left;
     margin-left: 2.5%;
-    margin-bottom: 25px;
+    margin-bottom: 2.5%;
     width: 95%;
   }
 }
