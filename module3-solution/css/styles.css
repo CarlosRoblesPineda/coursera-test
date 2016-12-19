@@ -51,6 +51,7 @@ section.container {
   border: 1px solid black;
   padding: 1%;
   background-color: #fff;
+  box-shadow: 0 0 10px #888;
 }
 
 .title {
@@ -62,12 +63,8 @@ p {
   padding: 5px;
   padding-bottom: 0;
 }
-#collapsable-nav {
-  width: 100%;
-}
 
-
-/* media queries */
+/*********** media queries ***********/
 
 @media (min-width: 992px){
   .col-md-4 {
@@ -102,3 +99,5 @@ p {
     width: 95%;
   }
 }
+
+/*********** media queries ***********/
