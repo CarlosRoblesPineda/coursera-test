@@ -23,11 +23,9 @@ body {
 }
 .navbar-brand a span {
   position: absolute;
-  left: 0;
   font-size: 2.4em;
   font-color: black;
   left: 5%;
-  top: 10%;
   text-align: middle;
 }
 header.navbar, .container{
