@@ -4,7 +4,7 @@
   margin: 0;
 }
 body {
-	font-family: 'Signika', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #000;
 	text-align: center;
 	background-color: #eabeab;
@@ -39,7 +39,7 @@ a {
   color: black;
 }
 h1 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Great Vibes', cursive;
   font-weight:bold;
   font-size: 2.7em;
   margin-bottom: 35px;
@@ -56,8 +56,8 @@ section.container {
 }
 
 .title {
-  font-family: 'Dancing Script', cursive;
-  font-size: 1.7em;
+  font-family: 'Great Vibes', cursive;
+  font-size: 2em;
   padding: 0;
   padding: 5px;
 }
