@@ -8,7 +8,7 @@
 // var helloSpeaker =
 
 // DO NOT attach the speakWord variable to the 'helloSpeaker' object.
-(function(window){
+(function (window){
 	
 	var speakWord = "Hello";
 
@@ -18,7 +18,7 @@
 
 	var helloSpeaker = {};
 
-	helloSpeaker.speak = function () {
+	helloSpeaker.speak = function (name) {
 	  console.log(speakWord + " " + name);
 	};
 	
