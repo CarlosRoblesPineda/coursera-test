@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+	text-align: center;
+	background-color: #eabeab;
+}
+#header-nav {
+  position: relative;
+  background-color: #ebbebb;
+  border-radius: 0;
+  border: none;
+  width: 100%;
+  box-shadow: 0px 1px 20px 0px #555;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  color: #555;
+  text-decoration: none;
+}
+.navbar-brand a span {
+  line-height: 0.5;
+  position: absolute;
+  font-size: 2em;
+  font-color: black;
+  left: 5%;
+  text-align: middle;
+}
+header.navbar, .container{
+  width: 95%;
+}
+.container{
+  padding: 0.5%;
+}
+a {
+  color: black;
+}
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-weight:bold;
+  font-size: 2.7em;
+  margin-bottom: 35px;
+}
+.container{
+  padding: 0.5%;
+}
+section.container {
+  position: relative;
+  border: 1px solid black;
+  padding: 1%;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px 0px #555;
+}
+
+.title {
+  font-family: 'Sacramento', cursive;
+  font-size: 2em;
+  padding: 0;
+  padding: 5px;
+}
+p {
+  padding: 5px;
+  padding-bottom: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+#nav-list {
+  border-bottom: 1px solid black;
+  margin-top: 10px;
+}
+#nav-list a {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  color: black;
+  text-align: center;
+  font-size: 1.2em;
+}
+#nav-list a span {
+  font-size: 1em;
+}
+#nav-list a:hover {
+  background: #fff;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #555;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+/*********** media queries ***********/
+
+@media (min-width: 992px) {
+  .col-md-12 {
+      float:left;
+      margin: -1%;
+      margin-left: 2.5%;
+      margin-bottom: 2.5%;
+      width: 95%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-12 {
+    float: left;
+    margin-left:2.5%;
+    margin-bottom: 25px;
+    width: 95%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-xs-12 {
+    float: left;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    width: 95%;
+  }
+}
+
+/*********** media queries ***********/
